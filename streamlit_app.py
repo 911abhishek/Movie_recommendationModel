@@ -24,13 +24,13 @@ similarity = pickle.load(open('similarity_hindi.pkl','rb'))
 st.set_page_config(page_title="Movie Recommender System", layout="wide",page_icon=":popcorn:")
 
 left_column , right_column = st.columns([3, 1])
-# st.title("Movie Recommender System")
-# st.markdown('Discover your next favorite movie based on your preferences!')
+st.title("Movie Recommender System")
+st.markdown('Discover your next favorite movie based on your preferences!')
 
 
-with right_column:
-    if animation:
-        st_lottie(animation, height=200, key="lottie")
+# with right_column:
+#     if animation:
+#         st_lottie(animation, height=200, key="lottie")
 def get_movie_poster(imdb_id): 
     # line 34 to 45 mera galat hai yeh wala 
     api_key = '6cf0b049'
