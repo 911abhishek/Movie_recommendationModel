@@ -24,8 +24,8 @@ similarity = pickle.load(open('similarity_hindi.pkl','rb'))
 st.set_page_config(page_title="Movie Recommender System", layout="wide",page_icon=":popcorn:")
 
 left_column , right_column = st.columns([3, 1])
-st.title("Movie Recommender System")
-st.markdown('Discover your next favorite movie based on your preferences!')
+# st.title("Movie Recommender System")
+# st.markdown('Discover your next favorite movie based on your preferences!')
 
 
 # with right_column:
