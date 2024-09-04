@@ -2,21 +2,21 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 
 
 
 
 movies_dict = pickle.load(open('movie_hindi.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
-lottie_image = "https://lottie.host/26e5a54a-bd7d-4df9-a1f1-e7c7f895eb48/h2WDQmr1CZ.json"
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+# lottie_image = "https://lottie.host/26e5a54a-bd7d-4df9-a1f1-e7c7f895eb48/h2WDQmr1CZ.json"
+# def load_lottieurl(url):
+#     r = requests.get(url)
+#     if r.status_code != 200:
+#         return None
+#     return r.json()
 
-animation = load_lottieurl(lottie_image)
+# animation = load_lottieurl(lottie_image)
 
 similarity = pickle.load(open('similarity_hindi.pkl','rb'))
 
