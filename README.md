@@ -2,7 +2,7 @@
 
 This repository contains a movie recommendation system built using Streamlit and trained on a Bollywood movie dataset. The system provides movie suggestions based on user preferences.
 
-#Link for demo posted using streamlit:
+## Link for demo posted using streamlit:
 https://movierecommendationmodel-dekho.streamlit.app/
 
 ## Files Included
